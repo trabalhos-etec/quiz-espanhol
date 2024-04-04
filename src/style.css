@@ -79,3 +79,20 @@ body {
 .incorreto {
   background-color: #f2856d; /* Vermelho Claro */
 }
+
+.btn-voltar {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff8080; /* Cor do fundo */
+    color: white; /* Cor do texto */
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px; /* Margem superior */
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-voltar:hover {
+    background-color: #ff6666; /* Cor do fundo ao passar o mouse */
+}
